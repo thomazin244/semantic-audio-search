@@ -1,6 +1,11 @@
 
 # Semantic Audio Search
 
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+![Python 3.11](https://img.shields.io/badge/Python-3.11%2B-green)
+![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688)
+![Frontend](https://img.shields.io/badge/UI-Gradio-orange)
+
 A self‑hosted semantic audio search stack that indexes your sound library, auto‑tags files, and lets you find and preview audio with natural‑language queries.
 
 **Stack:** FastAPI (Python) · CLAP embeddings · Qdrant vector DB · SQLite · Gradio UI · Docker
@@ -249,8 +254,4 @@ Garbage‑collect Qdrant points that don’t exist in SQLite.
 
 MIT. See `LICENSE` for details.
 
-![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
-![Python 3.11](https://img.shields.io/badge/Python-3.11%2B-green)
-![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688)
-![Frontend](https://img.shields.io/badge/UI-Gradio-orange)
 
