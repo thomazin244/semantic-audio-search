@@ -205,10 +205,17 @@ Garbage‑collect Qdrant points that don’t exist in SQLite.
 
 ## Screenshots
 
-- UI — Search and results
-- Preview / edit panel
-- Manage Library — Upload
-- Example of tags/description
+**Home**
+![Home UI](./screenshots/home-ui.png)
+
+**Search UI**
+![Search UI](./screenshots/search-ui.png)
+
+**Manage Library**
+![Manage Library](./screenshots/manage-library-ui.png)
+
+**Upload**
+![Manage Library](./screenshots/upload-ui.png)
 
 ---
 
