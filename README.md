@@ -206,16 +206,16 @@ Garbage‑collect Qdrant points that don’t exist in SQLite.
 ## Screenshots
 
 **Home**
-![Home UI](./screenshots/home-ui.png)
+![Home UI](./screenshots/home-ui.PNG)
 
 **Search UI**
-![Search UI](./screenshots/search-ui.png)
+![Search UI](./screenshots/search-ui.PNG)
 
 **Manage Library**
-![Manage Library](./screenshots/manage-library-ui.png)
+![Manage Library](./screenshots/manage-library-ui.PNG)
 
 **Upload**
-![Manage Library](./screenshots/upload-ui.png)
+![Manage Library](./screenshots/upload-ui.PNG)
 
 ---
 
