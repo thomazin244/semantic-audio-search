@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtualenvs
+.venv/
+env/
+
+# Data
+data/
+library/
+*.sqlite3
+
+# Models / cache
+.cache/
+~/.cache/
+*.pt
+*.pth
+
+# Docker artefacts
+*.log
+*.pid
+*.sock
+
+# OS
+.DS_Store
+Thumbs.db
