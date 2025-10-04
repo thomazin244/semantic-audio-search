@@ -1,0 +1,63 @@
+version: "3.8"
+
+services:
+  qdrant:
+    image: qdrant/qdrant:latest
+    restart: unless-stopped
+    volumes:
+      - ./data/qdrant:/qdrant/storage
+    networks:
+      - internal
+
+  api:
+    build: ./api
+    restart: unless-stopped
+    environment:
+      - AUTO_TAGS=1
+      - AUTO_TAGS_OVERWRITE=1
+      - AUTO_TAGS_TOPK=5
+      - AUTOTAGS_MODE=merge
+      - CAPTION_MODE=basic
+      - AUTO_TAGS_MIN_SIM=0.28
+      - QDRANT_URL=http://qdrant:6333
+      - COLLECTION_NAME=sfx
+      - DB_PATH=/app/data/meta.sqlite3
+      - LIBRARY_DIR=/app/library
+      - CLAP_MODEL=laion/clap-htsat-unfused
+      - SYNONYMS_PATH=/app/config/synonyms.json
+      - SIM_WEIGHT=0.9
+      - KW_WEIGHT=0.1
+    volumes:
+      # Option A: local library without Seafile
+      - ./library:/app/library
+
+      # Option B: If you wanna use Seafile to storage and upload sounds Seafile
+      # - /path/a/tu/seafile/sounds:/app/library
+
+      - ./data:/app/data
+      - ./config:/app/config
+    depends_on:
+      - qdrant
+    ports:
+      - "8000:8000"
+    networks:
+      - internal
+
+  ui:
+    build: ./ui
+    restart: unless-stopped
+    environment:
+      - API_URL=http://api:8000
+      - API_URL_PUBLIC=http://localhost:8000
+      - GRADIO_SERVER_NAME=0.0.0.0
+      - GRADIO_SERVER_PORT=7860
+    depends_on:
+      - api
+    ports:
+      - "7860:7860"
+    networks:
+      - internal
+
+networks:
+  internal:
+    driver: bridge
