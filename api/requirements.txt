@@ -1,0 +1,16 @@
+fastapi==0.115.5
+uvicorn[standard]==0.30.6
+qdrant-client==1.9.2
+
+sqlalchemy==2.0.34
+python-multipart==0.0.9
+
+numpy==1.26.4
+soundfile==0.12.1
+librosa==0.10.2.post1
+torch==2.3.1
+torchaudio==2.3.1
+transformers==4.44.2
+
+pydub==0.25.1
+panns-inference==0.1.1
