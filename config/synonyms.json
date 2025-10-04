@@ -1,0 +1,19 @@
+{
+  "bad": ["bad", "wrong", "error", "fail", "negative", "incorrect", "buzzer", "buzz", "denied", "reject", "lose", "lost"],
+  "good": ["good", "ok", "correct", "success", "positive", "right", "victory", "win", "accept", "confirm", "yay"],
+  "feedback": ["feedback", "ui", "alert", "notification", "beep", "tone", "click", "select", "hover", "focus", "ping"],
+  "attack": ["attack", "hit", "strike", "punch", "slash", "shoot", "fire", "explosion", "impact", "blast", "boom"],
+  "damage": ["damage", "hurt", "injury", "pain", "hit", "ouch", "break", "crash", "smash"],
+  "heal": ["heal", "cure", "potion", "recover", "revive", "rest", "health", "life"],
+  "collect": ["collect", "pickup", "gather", "loot", "item", "coin", "gem", "grab"],
+  "jump": ["jump", "hop", "bounce", "spring", "boing", "leap"],
+  "death": ["death", "dead", "die", "lose", "game over", "fail", "rip"],
+  "menu": ["menu", "select", "navigate", "open", "close", "hover", "scroll", "button", "ui"],
+  "ambient": ["ambient", "wind", "rain", "storm", "fire", "water", "forest", "birds", "nature", "background"],
+  "monster": ["monster", "enemy", "creature", "beast", "villain", "opponent", "foe"],
+  "magic": ["magic", "spell", "cast", "wizard", "mana", "power", "sparkle", "shine", "twinkle"],
+  "timer": ["timer", "clock", "tick", "tock", "alarm", "countdown", "time"],
+  "victory": ["victory", "win", "success", "yay", "applause", "clap", "cheer", "triumph"],
+  "defeat": ["defeat", "lose", "fail", "death", "game over", "sad", "boo"],
+  "system": ["system", "startup", "loading", "save", "load", "pause", "resume", "quit", "exit"]
+}
