@@ -248,3 +248,9 @@ Garbage‑collect Qdrant points that don’t exist in SQLite.
 ## License
 
 MIT. See `LICENSE` for details.
+
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+![Python 3.11](https://img.shields.io/badge/Python-3.11%2B-green)
+![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688)
+![Frontend](https://img.shields.io/badge/UI-Gradio-orange)
+
